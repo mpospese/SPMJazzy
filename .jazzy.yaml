@@ -11,6 +11,6 @@ xcodebuild_arguments:
   - -scheme
   - SPMJazzy
   - -sdk
-  - iphonesimulator15.4
+  - iphoneos
   - -destination
   - 'platform=iOS Simulator,name=iPhone 13'
