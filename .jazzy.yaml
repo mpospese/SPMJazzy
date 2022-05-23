@@ -1,0 +1,16 @@
+author: 'Mark Pospesel'
+author_url: https://mpospese.com
+min_acl: public
+hide_documentation_coverage: false
+theme: fullwidth
+output: ./docs
+documentation: ./*.md
+swift_build_tool: xcodebuild
+module: SPMJazzy
+xcodebuild_arguments:
+  - -scheme
+  - SPMJazzy
+  - -sdk
+  - iphonesimulator15.5
+  - -destination
+  - 'platform=iOS Simulator,name=iPhone 13'
