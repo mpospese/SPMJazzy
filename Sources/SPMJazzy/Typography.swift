@@ -7,6 +7,12 @@
 
 import UIKit
 
+/// This is a Widget!
+public struct Widget {
+    // Foo!
+    public let foo: String
+}
+
 /// Represents a Typography object
 public struct Typography {
     /// Font family name (e.g. "SF Pro")
