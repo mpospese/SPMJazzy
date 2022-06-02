@@ -9,7 +9,7 @@ import UIKit
 
 /// This is a Widget!
 public struct Widget {
-    // Foo!
+    /// Foo!
     public let foo: String
 }
 
