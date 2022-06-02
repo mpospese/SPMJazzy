@@ -10,9 +10,9 @@ import XCTest
 
 final class TypographyTests: XCTestCase {
     func testInit() {
-        let sut = Typography(fontFamily: "SF Pro", fontSize: 16, fontWeight: 400)
+        let sut = Typography(fontFamily: "SF Pro", fontSize: 16, fontWeight: .regular)
         XCTAssertEqual(sut.fontFamily, "SF Pro")
         XCTAssertEqual(sut.fontSize, 16)
-        XCTAssertEqual(sut.fontWeight, 400)
+        XCTAssertEqual(sut.fontWeight, .regular)
     }
 }
